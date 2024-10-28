@@ -1,0 +1,23 @@
+
+application {
+  config {
+    baseName subscription
+    applicationType monolith
+    packageName my.projects.datastore
+    authenticationType oauth2
+    prodDatabaseType mongodb
+    clientFramework react
+  }
+  entities *
+}
+
+entity User {
+	id Long,
+    externalUserId String,
+    username String,
+    firstName String,
+    lastName String,
+	email String,
+    registeredDate ZonedDateTime,
+    lastLoginTime ZonedDateTime
+}
