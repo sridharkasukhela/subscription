@@ -1,2 +1,3 @@
 org.springframework.test.context.ContextCustomizerFactory = my.project.modules.\
+    config.TestContainersSpringContextCustomizerFactory,my.projects.datastore.\
     config.TestContainersSpringContextCustomizerFactory

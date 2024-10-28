@@ -4,7 +4,7 @@
 <configuration scan="true">
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
 
-    <logger name="my.project.modules" level="INFO"/>
+    <logger name="my.projects.datastore" level="INFO"/>
 
     <logger name="tech.jhipster" level="WARN"/>
 

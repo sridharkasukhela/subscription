@@ -90,7 +90,7 @@ management:
 
 mongock:
   migration-scan-package:
-    - my.project.modules.config.dbmigrations
+    - my.projects.datastore.config.dbmigrations
 
 spring:
   application:

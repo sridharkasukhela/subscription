@@ -1,0 +1,30 @@
+{
+  "subscriptionApp": {
+    "user": {
+      "home": {
+        "title": "Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User",
+        "createOrEditLabel": "Create or edit a User",
+        "notFound": "No Users found"
+      },
+      "created": "A new User is created with identifier {{ param }}",
+      "updated": "A User is updated with identifier {{ param }}",
+      "deleted": "A User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User {{ id }}?"
+      },
+      "detail": {
+        "title": "User"
+      },
+      "id": "Id",
+      "externalUserId": "External User Id",
+      "username": "Username",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "registeredDate": "Registered Date",
+      "lastLoginTime": "Last Login Time"
+    }
+  }
+}

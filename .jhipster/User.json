@@ -1,0 +1,43 @@
+{
+  "annotations": {
+    "changelogDate": "20241028110317"
+  },
+  "applications": ["subscription"],
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "externalUserId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "username",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "registeredDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "lastLoginTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "User",
+  "relationships": [],
+  "searchEngine": "no"
+}
